@@ -1,0 +1,241 @@
+/*.introduction
+{
+    color: blue;
+}
+
+#introduction
+{
+    color: red;
+}
+
+.test{
+    color: darkblue;
+}
+
+(Mettre 2 balises)
+p em {
+    color: green;
+}*/
+
+/*(modifier la taille)
+
+p{
+    font-size: small;
+}*/
+
+/*p{
+    font-size: 1.5em;
+}*/
+
+/*(Changer le texte)
+p{
+    font-family: Impact, "Arial Black", Arial;
+}*/
+
+/*(Souligner le text)
+p{
+    text-decoration: underline, overline,line-through ;*/
+}
+
+
+/*(centrer du texte)
+
+h1{
+    text-align: center ou justify;
+}*/
+
+/* (mettre une image flottante)
+
+.flottant{
+    float: right;
+}*/
+
+/* (mettre paragraphe en dessous de l'image)
+
+.autreparagraphe{
+    clear:  right;
+}*/
+
+
+/* (changer couleurs du texte)
+
+p{
+   color:  white ou en #chiffre + lettre; 
+}*/
+
+/* (changer de couleurs rgba + fond)
+p ou body
+{
+   background-color:  rgb(250,96,204);
+   https://imagecolorpicker.com/ 
+}*/
+
+/* (Mettre une image en fond avec du code en plus)
+body
+{
+background-image:  url("neige.jpg");
+background-attachment: fixed;
+background-repeat:  no-repeat;
+background-position:  top-right;
+
+}*/
+
+/* ( mettre une page en couleurs + du texte)
+h1{
+    background-color:  black;
+    color:  white;
+    opacity:  0.6; (transparent)
+}*/
+
+/*
+h1 (Mettre une bordure)
+{
+    border: 3px blue dotted;
+}*/
+
+
+/*(mettre un fond au bouton)
+
+h1{
+border-radius: 20px / 10px;
+}*/
+
+
+/*(mettre un effets d'ombre au border)
+h1{
+box-shadow: 6px 6px 10px black; (En box)
+text-shadow: 6px 6px 10px black; (Pour le texte)
+}*/
+
+/*(Cliquez sur un lien changement de couleurs)
+a:hover{
+ color: green;
+}*/
+
+/*(Mettre une bar)
+p:hover{
+    border-left: 3px solid black;
+}*/
+
+/* (Mettre une couleurs en cliquant sur le lien changement de page)
+
+a:active {
+    color: red;
+}*/
+
+/* (Mettre en valeur éléments selectionner formulaire)
+
+input:focus
+{
+    backgroud-color:  red;
+} */
+
+/*(Quand on as visiter un site changement de couleurs)
+a:visited
+{
+color: #888888;
+}*/
+/* (Bordure )
+h1
+{
+    width: ; (largeur)
+    height: ; (hauteur)
+}
+
+h1{
+    width: 300px;
+    background: #ccc;
+}
+p{
+    width: 50%;
+    min-width: 400px;
+
+}*/
+
+/* (Marge ext)
+
+p{
+    width: 350px;
+    border: 1px solid black;
+    text-align: justify;
+    margin: 50px;
+}*/
+
+/*(Marge inter.)
+
+p{
+    width: 350px;
+    border: 1px solid black;
+    text-align: justify;
+    padding: 12px;
+    margin: auto;
+    overflow: visible;
+    word-wrap: break-word;
+}*/
+
+/*(FlexBox)
+#conteneur
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align items:  stretch;
+    margin:  auto;
+    align-content:  flex-end;
+    order: 3;
+    flex: 1;
+
+}*/    
+/* (Sans Flexbox)
+
+nav
+{
+    float: left;
+    display: inline;
+    vertical-align:  bottom;
+    position: absolute;
+    bottom:  0px;
+    right: 0px;
+    z-index: 5px;
+
+
+}
+section
+{
+    margin-left: 170px;
+}*/
+
+/* (Tableau CSS)
+table
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+}
+/*td
+{
+    border: 1px solid black;
+}*/
+
+
+/*(Formulaires CSS)
+:required
+{
+    background-color: red;
+}
+
+
+/*(Medias queries)
+
+p{
+    color: blue;
+}
+
+
+@media screen and (max-width:  1280px)
+{
+p{
+
+   color: red;
+   background-color: black;
+   font-size: 1.2em;
+}
+}*/
